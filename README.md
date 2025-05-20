@@ -59,3 +59,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Comando para outoload
+
+Primeiro ir para a pasta public usando 'cd public' e em seguida usado php -S localhost:8080 iniciará o servidor local para teste
+
+## Obs
+
+Necessário downlod do Composer e do PHP na maquina para prosseguir com o projeto
