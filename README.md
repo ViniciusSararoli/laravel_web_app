@@ -63,7 +63,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Comando para outoload
 
 Primeiro ir para a pasta public usando 'cd public' e em seguida usado php -S localhost:8080 iniciará o servidor local para teste
+    OU
+Na rais do projeto usar o camando php artisan serve que serve para iniciar o servidor
 
 ## Obs
 
+Para ver funções do artisan precisa usar: "php artisan list"
+
 Necessário downlod do Composer e do PHP na maquina para prosseguir com o projeto
+
+Para crição dos Controllers é necessário usa o segunte comando: "php artisan make:controller (NomeController)"
