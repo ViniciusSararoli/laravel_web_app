@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-})->name('site.laravel'); 
+})->name('site.laravel');
 
 
 # O mais comum é fazer esse redirecionamento dentro do controller
@@ -30,3 +30,7 @@ Route::get(
     '/brasil/{state?}/{city?}',
     [App\Http\Controllers\EstadoCidadeController::class, "stateCity"]
 )->where('state', '[A-Z]+')->where('city', '[A-Za-z]+');
+
+Route::fallback(function () {
+    echo "Rota inexiste, clique <a href='" . route('site.main') . "'>aqui</a> para ir para a página principal";
+});
