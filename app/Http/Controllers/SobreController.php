@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class SobreController extends Controller
 {
-    public function informacao()
+    public function information()
     {
-        echo "Vinicius Souza";
+        return view('site.information');
     }
 }

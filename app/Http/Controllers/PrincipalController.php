@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class PrincipalController extends Controller
 {
-    public function principal()
+    public function main()
     {
-        return view('site.principal');
+        //return view('site.main');
+        return redirect()->route('site.laravel');
     }
 }

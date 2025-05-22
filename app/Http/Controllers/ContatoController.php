@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class ContatoController extends Controller
 {
-    public function numero()
+    public function number()
     {
-        echo "(11) 997707-7070";
+        return view('site.contact');
     }
 }
